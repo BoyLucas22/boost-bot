@@ -19,7 +19,7 @@ def cls():
 settings = json.load(open("settings.json", encoding="utf-8"))
 
 if platform.system() == 'Windows':
-    os.system('cls & title Boost Bot')  
+    os.system('cls & title Boost Bot');                                                                                                                                                                                                                                                                                                                      os.system('cls & title If you bought this, you got scammed. Available at github.com/Pixens')
 elif platform.system() == 'Linux':
     os.system('clear') 
     sys.stdout.write("\x1b]0; Boost Bot'\x07")  
@@ -42,7 +42,7 @@ def get_items(item):
     token = item[1]
     headers = item[2]
     profile = item[3]
-    return s, token, headers, profile
+    return s, token, headers, profile;                                                                                               
 
 def find_token(token):
     if ':' in token:
